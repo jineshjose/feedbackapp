@@ -1,0 +1,115 @@
+.card{
+    max-width: 100%;
+    background-color: #fff;
+    margin: 20px 15px;
+    border: 1px solid #ccc;
+    position: relative;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+.feedback-rating{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: -15px;
+    top: -15px;
+    background-color: blueviolet;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+}
+.desc{
+    padding: 10px 0;
+}
+.card.reverse{
+    color: #fff;
+    background-color: rgba(0,0,0,0.8);
+}
+button.close {
+    position: absolute;
+    right: -2px;
+    top: -3px;
+    background: no-repeat;
+    border: none;
+    background: #fff;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 20px;
+    box-shadow: 2px 3px 5px rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+.feedback-stat{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: 15px;
+}
+.btn{
+    height: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.btn-primary{
+    background-color: rgb(4, 98, 175);
+    border: none;
+    color: #fff;
+    border-radius: 2px;
+}
+.btn-secondary{
+    background-color: rgb(129, 4, 175);
+    border: none;
+    color: #fff;
+    border-radius: 2px;
+}
+input[type='text']{
+    height: 30px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    min-width: 300px;
+    width: 100%;
+}
+.input-group{
+    display: flex;
+    justify-content: stretch;
+}
+*:disabled,*[disabled]{
+    background-color: #ccc;
+    
+}
+.rating-selector{
+    display: flex;
+}
+.rating-selector li{list-style: none;}
+.rating-selector input{
+    background-color: rgb(206, 37, 212);
+}
+a{
+    color: rgb(0, 119, 255);
+    padding: 5px 15px;
+    text-decoration: none;
+}
+a.active{text-decoration: underline; font-weight: bold;}
+button.edit-feed {
+    float: left;
+    position: absolute;
+    top: -4px;
+    right: 23px;
+    box-sizing: border-box;
+    padding: 0;
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    font-size: 10px;
+    text-align: center;
+    line-height: 16px;
+    cursor: pointer;
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+}
