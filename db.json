@@ -1,0 +1,24 @@
+{
+  "feedback": [
+    {
+      "text": "feedback item 1 from backend edited in json",
+      "rating": 8,
+      "id": 1
+    },
+    {
+      "id": 2,
+      "rating": 9,
+      "text": "feedback item 2 from backend"
+    },
+    {
+      "id": 3,
+      "rating": 7,
+      "text": "feedback item 3 from backend"
+    },
+    {
+      "text": "postman content edited json 3 updated again",
+      "rating": 8,
+      "id": 4
+    }
+  ]
+}
